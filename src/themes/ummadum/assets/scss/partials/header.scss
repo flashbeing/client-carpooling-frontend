@@ -23,7 +23,9 @@ header {
     }
     #header-top {
         height: 90px;
-        background-color: white;
+        background-color: #96E85A;
+        color: white !important;
+        font-size: bold;
         z-index: 100;
         position: fixed;
         top: 0;
@@ -32,13 +34,6 @@ header {
         &.is-active {
             border-bottom: 1px solid rgba(0, 0, 0, 0.16);
             .container .header-wrap {
-                #logo {
-                    padding-right: 50px;
-                    border-right: 1px solid rgba(0, 0, 0, 0.16);
-                }
-                #logo-description {
-                    display: none;
-                }
                 .title {
                     display: block;
                     font-weight: 300;
@@ -83,7 +78,7 @@ header {
                         list-style: none;
                         li {
                             a {
-                                color: white;
+                                color: white
                             }
                             padding: 12.5px;
                             &.current {

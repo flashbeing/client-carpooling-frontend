@@ -38,7 +38,6 @@ h2 {
       margin-right: 5%;
       margin-left: 5%;
       width: 90%; } }
-
 .desktop-half {
   margin: 0;
   padding: 0;
@@ -50,7 +49,6 @@ h2 {
   @media (max-width: 979px) {
     .desktop-half {
       width: 100%; } }
-
 .flex {
   display: flex;
   align-items: center;
@@ -888,7 +886,9 @@ header {
     background-size: contain; }
   header #header-top {
     height: 90px;
-    background-color: white;
+    background-color: #96E85A;
+    color: white !important;
+    font-size: bold;
     z-index: 100;
     position: fixed;
     top: 0;
@@ -896,11 +896,6 @@ header {
     right: 0; }
     header #header-top.is-active {
       border-bottom: 1px solid rgba(0, 0, 0, 0.16); }
-      header #header-top.is-active .container .header-wrap #logo {
-        padding-right: 50px;
-        border-right: 1px solid rgba(0, 0, 0, 0.16); }
-      header #header-top.is-active .container .header-wrap #logo-description {
-        display: none; }
       header #header-top.is-active .container .header-wrap .title {
         display: block;
         font-weight: 300;
@@ -936,6 +931,8 @@ header {
           list-style: none; }
           header #header-top .container .header-wrap .menu ul li {
             padding: 12.5px; }
+            header #header-top .container .header-wrap .menu ul li a {
+              color: white; }
             header #header-top .container .header-wrap .menu ul li.current {
               text-decoration: underline; }
             header #header-top .container .header-wrap .menu ul li:hover {
@@ -1040,7 +1037,6 @@ header {
       border: none !important; }
     header #header-top .title {
       display: none !important; } }
-
 footer {
   height: 60vh;
   margin: 0;
@@ -1103,7 +1099,6 @@ footer {
         height: 520px; }
       footer .map {
         height: 240px; } }
-
 .alert {
   color: #2e3131;
   background-color: white;
@@ -1127,7 +1122,6 @@ footer {
     .alert-cookie {
       width: auto;
       left: 0; } }
-
 .alert-cookie p {
   margin-bottom: 10px; }
 
@@ -1375,7 +1369,6 @@ footer {
           margin-bottom: 75px; }
         #observatory .container .card.odd .images {
           margin-bottom: 0; } }
-
 #services-single h2 {
   margin: 50px 0;
   text-transform: uppercase; }

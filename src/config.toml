@@ -1,8 +1,8 @@
-baseURL = "https://freesoftwarelab.noi.bz.it/"
+baseURL = "https://ummadum.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Free Software Lab"
-theme = "free-software-lab"
+title = "Ummadum Carpooling"
+theme = "ummadum"
 googleAnalytics = ""
 
 
@@ -17,29 +17,24 @@ languageName = "English"
 contentDir = "content/en"
 
 [[languages.en.menu.main]]
-url    = "/"
-name   = "Home"
+url    = "#how-does-it-work"
+name   = "How does it work"
 weight = 0
 
 [[languages.en.menu.main]]
-url    = "/services"
-name   = "Services"
+url    = "#partner"
+name   = "Partner"
 weight = 10
 
-# [[languages.en.menu.main]]
-#url    = "/testenv"
-#name   = "Test Environment"
-#weight = 20
+[[languages.en.menu.main]]
+url    = "#faq"
+name   = "FAQ"
+weight = 20
 
 [[languages.en.menu.main]]
-url    = "/observatory"
-name   = "Observatory"
+url    = "/book"
+name   = "Book a travel"
 weight = 30
-
-[[languages.en.menu.main]]
-url    = "/contact"
-name   = "Contact"
-weight = 40
 
 [languages.de]
 weight = 10
@@ -47,19 +42,24 @@ contentDir = "content/de/"
 languageName = "Deutsch"
 
 [[languages.de.menu.main]]
-url    = "/"
-name   = "Home"
+url    = "#how-does-it-work"
+name   = "Wie es funktioniert"
 weight = 0
 
 [[languages.de.menu.main]]
-url    = "/services"
-name   = "Dienstleitungen"
+url    = "#partner"
+name   = "Partner"
 weight = 10
 
 [[languages.de.menu.main]]
-url    = "/contact"
-name   = "Kontakt"
+url    = "#faq"
+name   = "FAQ"
 weight = 20
+
+[[languages.de.menu.main]]
+url    = "/book"
+name   = "Buche eine Fahrt"
+weight = 30
 
 [languages.it]
 weight = 20
@@ -67,19 +67,24 @@ contentDir = "content/it/"
 languageName = "Italiano"
 
 [[languages.it.menu.main]]
-url    = "/"
-name   = "Home"
+url    = "#how-does-it-work"
+name   = "Come funziona"
 weight = 0
 
 [[languages.it.menu.main]]
-url    = "services"
-name   = "Servizi"
+url    = "#partner"
+name   = "Partner"
 weight = 10
 
 [[languages.it.menu.main]]
-url    = "/contact"
-name   = "Contatto"
+url    = "#faq"
+name   = "Domande frequenti"
 weight = 20
+
+[[languages.it.menu.main]]
+url    = "/book"
+name   = "Prenota un viaggio"
+weight = 30
 
 [[languages.en.menu.footer]]
 url    = "https://noi.bz.it/privacy-cookie-policy"
