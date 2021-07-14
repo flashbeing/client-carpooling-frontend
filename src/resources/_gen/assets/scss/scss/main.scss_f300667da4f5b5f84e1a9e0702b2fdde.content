@@ -2,7 +2,7 @@
 html,
 body {
   background: white;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   line-height: 1.4;
   font-weight: 400;
@@ -12,25 +12,40 @@ body {
 
 .bg-primary {
   background-color: #96E85A !important; }
-  .bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary p {
-    color: #176355; }
+  .bg-primary h1,
+  .bg-primary h2,
+  .bg-primary h3,
+  .bg-primary p {
+    color: #176355 !important; }
 
 a {
   color: #176355;
   text-decoration: none; }
 
+h1,
+h2,
+h3,
+p {
+  color: #176355 !important;
+  margin-bottom: 3rem !important; }
+
 h1 {
   font-weight: bold;
-  font-size: 3rem;
-  margin: 0; }
+  font-size: 3rem; }
 
 h2 {
   font-weight: bold;
-  font-size: 2rem;
-  margin: 0px; }
+  font-size: 2rem; }
+
+h3 {
+  font-weight: bold !important;
+  font-size: 2rem !important; }
 
 .font-small {
   font-size: 0.75rem; }
+
+section {
+  padding: 5rem 0; }
 
 .container {
   max-width: 1920px;
@@ -110,7 +125,7 @@ input {
     font-style: italic;
     color: #7e7e7e !important;
     opacity: 1; }
-  input[type=checkbox] {
+  input[type="checkbox"] {
     height: 1rem !important;
     width: 1rem !important;
     margin: 0 10px 0 0; }
@@ -165,18 +180,18 @@ input {
 
 .tag {
   margin: 10px 0;
-  font-size: .75rem; }
+  font-size: 0.75rem; }
   .tag span {
     align-items: center;
-    background-color: #BA1E40;
+    background-color: #ba1e40;
     border-radius: 4px;
     color: white;
     display: inline-flex;
     height: 2em;
     justify-content: center;
     line-height: 1.5;
-    padding-left: .75em;
-    padding-right: .75em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
     white-space: nowrap;
     margin: 0 10px 0 0; }
 
@@ -1166,11 +1181,29 @@ footer {
     color: var(--color-primary); }
 
 .generic-offset-image {
-  min-height: 60vh; }
+  margin-bottom: 5rem;
+  padding: 0;
+  font-size: 1.8rem !important; }
   .generic-offset-image > .container {
     display: flex; }
     .generic-offset-image > .container > .col {
       align-self: center; }
+      .generic-offset-image > .container > .col.offset {
+        margin-top: 5rem;
+        margin-bottom: -5rem; }
+  .generic-offset-image a:hover {
+    text-decoration: none !important; }
+  .generic-offset-image a img {
+    height: 60vh; }
+
+.col-images .row {
+  text-align: center; }
+  .col-images .row a:hover {
+    text-decoration: none !important; }
+  .col-images .row a img {
+    max-width: 300px;
+    width: auto;
+    padding: 1rem 5rem; }
 
 #home .banner {
   width: 100%;

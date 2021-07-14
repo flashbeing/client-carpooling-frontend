@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&display=swap");
 html,
 body {
     background: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 18px;
     line-height: 1.4;
     font-weight: 400;
@@ -14,8 +14,11 @@ body {
 .bg-primary {
     background-color: $primary !important;
 
-    h1, h2, h3, p {
-        color: $link;
+    h1,
+    h2,
+    h3,
+    p {
+        color: $link !important;
     }
 }
 
@@ -24,23 +27,38 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+p {
+    color: $link !important;
+    margin-bottom: 3rem !important;
+}
+
 h1 {
     font-weight: bold;
     font-size: 3rem;
-    margin: 0;
 }
 
 h2 {
     font-weight: bold;
     font-size: 2rem;
-    margin: 0px;
+}
+
+h3 {
+    font-weight: bold !important;
+    font-size: 2rem !important;
 }
 
 .font-small {
     font-size: 0.75rem;
 }
 
-// Layout 
+// Layout
+section {
+    padding: 5rem 0;
+}
+
 .container {
     max-width: 1920px;
     margin-right: 10%;
@@ -138,7 +156,7 @@ input {
         color: $dark-border !important;
         opacity: 1;
     }
-    &[type=checkbox] {
+    &[type="checkbox"] {
         height: 1rem !important;
         width: 1rem !important;
         margin: 0 10px 0 0;
@@ -161,7 +179,7 @@ input {
         &:hover {
             color: black;
         }
-        &+a {
+        & + a {
             position: relative;
             &::before {
                 content: "";
@@ -209,18 +227,18 @@ input {
 // Shortcodes
 .tag {
     margin: 10px 0;
-    font-size: .75rem;
+    font-size: 0.75rem;
     span {
         align-items: center;
-        background-color: #BA1E40;
+        background-color: #ba1e40;
         border-radius: 4px;
         color: white;
         display: inline-flex;
         height: 2em;
         justify-content: center;
         line-height: 1.5;
-        padding-left: .75em;
-        padding-right: .75em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
         white-space: nowrap;
         margin: 0 10px 0 0;
     }

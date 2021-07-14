@@ -7,3 +7,17 @@ offset_image:
 
   image_alt: Consume Data
   image_link: "/img/junior-reis-98AVD0fctzA-unsplash.png"
+
+community:
+  title: È già utilizzato da oltre 4k viaggiatori e 200 aziende
+  img_one: "img/leitner.png"
+  img_one_name: Leitner
+  img_one_link: https://www.leitner.com/
+
+  img_two: "img/noi-techpark.png"
+  img_two_name: NOI Techpark
+  img_two_link: https://noi.bz.it/
+
+  img_three: "img/idm.png" 
+  img_three_name: IDM Suedtirol
+  img_three_link: https://www.idm-suedtirol.com
