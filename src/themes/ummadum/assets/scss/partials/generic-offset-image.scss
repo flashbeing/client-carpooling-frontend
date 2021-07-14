@@ -1,0 +1,11 @@
+
+.generic-offset-image {
+    min-height: 60vh;
+
+    & > .container {
+        display: flex;
+        & > .col {
+            align-self: center;
+        }
+    }
+}

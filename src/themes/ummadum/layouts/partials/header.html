@@ -33,19 +33,6 @@
                 </div>
             </div>
         </div>
-        <div class="header-bottom container">
-            <div class="card center-area odd">
-                <div class="flex center-y">
-                    <div>
-                        <h1>{{ .Title }}</h1>
-                        {{ if not .IsPage }}{{ .Content }}{{ else }}{{ $index := .GetPage "../" }}{{ $index.Content }}{{ end }}
-                    </div>
-                    {{ if .IsHome }}
-                    <div class="sponsor"></div>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
         <div id="menu-wrap-mobile" class="flex">
             <div class="container">
                 {{ partial "lang.html" . }}

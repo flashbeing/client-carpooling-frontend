@@ -10,18 +10,22 @@ body {
   padding: 0;
   overflow-x: hidden; }
 
+.bg-primary {
+  background-color: #96E85A !important; }
+  .bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary p {
+    color: #176355; }
+
 a {
-  color: #212121;
+  color: #176355;
   text-decoration: none; }
 
 h1 {
-  font-weight: 300;
+  font-weight: bold;
   font-size: 3rem;
-  text-transform: uppercase;
   margin: 0; }
 
 h2 {
-  font-weight: 200;
+  font-weight: bold;
   font-size: 2rem;
   margin: 0px; }
 
@@ -79,6 +83,21 @@ button {
   color: black;
   background: transparent;
   cursor: pointer; }
+
+.btn {
+  text-align: center;
+  font-size: 1rem;
+  padding: 3rem;
+  height: 4rem;
+  border-radius: 10px !important;
+  transition: all 0.5s ease; }
+  .btn:hover {
+    text-decoration: none !important; }
+  .btn.btn-link {
+    color: white !important;
+    background-color: #176355 !important; }
+    .btn.btn-link:hover {
+      background-color: #1b734d !important; }
 
 input {
   height: 60px;
@@ -1146,6 +1165,13 @@ footer {
     background: var(--color-background);
     color: var(--color-primary); }
 
+.generic-offset-image {
+  min-height: 60vh; }
+  .generic-offset-image > .container {
+    display: flex; }
+    .generic-offset-image > .container > .col {
+      align-self: center; }
+
 #home .banner {
   width: 100%;
   height: 60vh;
@@ -1154,53 +1180,6 @@ footer {
 
 #home .container {
   padding: 0; }
-  #home .container .card {
-    height: 450px;
-    width: 100%;
-    margin: 0 -10vw;
-    padding: 0 10vw; }
-    #home .container .card.even {
-      background: white; }
-    #home .container .card.odd {
-      background: #f9f9f9; }
-    #home .container .card .flex {
-      position: relative;
-      width: 100%; }
-      #home .container .card .flex .images {
-        font-size: 0;
-        height: 350px;
-        width: 350px; }
-        #home .container .card .flex .images .image.image-long {
-          height: 46%;
-          width: 100%;
-          background-size: cover;
-          margin-bottom: 8%; }
-        #home .container .card .flex .images .image {
-          display: inline-block;
-          height: 46%;
-          width: 46%;
-          background-size: cover;
-          margin-right: 8%; }
-      #home .container .card .flex .content {
-        width: 50vw;
-        max-width: 800px; }
-        #home .container .card .flex .content button {
-          margin-top: 25px; }
-
-@media (max-width: 979px) {
-  #home .container .card {
-    height: auto; }
-    #home .container .card .flex .images {
-      height: 100vw;
-      width: 100vw;
-      margin: 75px auto; }
-    #home .container .card .flex .content {
-      width: 100%;
-      margin: 75px 0; }
-    #home .container .card.even .content {
-      margin-bottom: 0; }
-    #home .container .card.odd .images {
-      margin-bottom: 0; } }
 
 #services h2 {
   margin-top: 25px; }
