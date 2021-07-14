@@ -1,6 +1,6 @@
-# software.bz.it
+# Ummadum
 
-Repository for the [Free Software Lab](https://software.bz.it) website created with [Hugo](https://gohugo.io/).
+Repository for the [Carpooling](#) website created with [Hugo](https://gohugo.io/).
 
 ## Table of contents
 
@@ -27,13 +27,13 @@ If you don't want to install all prerequisites directly on your machine and inst
 Get a copy of the repository:
 
 ```bash
-git clone git@github.com:idm-suedtirol/freesoftwarelab-website.git
+git clone git@github.com:flashbeing/carpooling-website.git
 ```
 
 Change directory:
 
 ```bash
-cd freesoftwarelab-website
+cd carpooling-website
 ```
 
 ### Development
@@ -48,9 +48,13 @@ The website will be available at [http://127.0.0.1:1313](http://127.0.0.1:1313).
 
 ## Deployment
 
+**Note: this part still has to be implemented. The documentation is taken from other hugo projects of NOI**
+
 To deploy the website, simply run the command `hugo -s src -d ../target` from the root folder of the project. The final version of the website will then be generate inside the `target` folder.
 
 ## Docker environment
+
+**Note: this part still has to be implemented. The documentation is taken from other hugo projects of NOI**
 
 For the project a Docker environment is already prepared and ready to use with all necessary prerequisites.
 
