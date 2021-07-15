@@ -11,8 +11,8 @@ body {
     overflow-x: hidden;
 }
 
-.bg-primary {
-    background-color: $primary !important;
+.bg-primary-accent {
+    background-color: $primary-accent !important;
 
     h1,
     h2,
@@ -20,6 +20,10 @@ body {
     p {
         color: $link !important;
     }
+}
+
+.bg-link {
+    background-color: $link !important;
 }
 
 a {

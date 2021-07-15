@@ -10,13 +10,16 @@ body {
   padding: 0;
   overflow-x: hidden; }
 
-.bg-primary {
-  background-color: #85CD50 !important; }
-  .bg-primary h1,
-  .bg-primary h2,
-  .bg-primary h3,
-  .bg-primary p {
+.bg-primary-accent {
+  background-color: #96E85A !important; }
+  .bg-primary-accent h1,
+  .bg-primary-accent h2,
+  .bg-primary-accent h3,
+  .bg-primary-accent p {
     color: #176355 !important; }
+
+.bg-link {
+  background-color: #176355 !important; }
 
 a {
   color: #176355;
@@ -930,7 +933,7 @@ header {
     background-size: contain; }
   header #header-top {
     height: 90px;
-    background-color: #85CD50;
+    background-color: #96E85A;
     color: white !important;
     font-size: bold;
     z-index: 100;
@@ -1257,41 +1260,39 @@ section.img-text-img {
     section.img-text-img .container .row .col {
       align-self: center; }
 
-section.steps {
-  background-color: #176355; }
-  section.steps .row {
-    margin: 5rem 0;
-    font-size: 1.8rem !important; }
-    section.steps .row h1,
-    section.steps .row h2,
-    section.steps .row h3,
-    section.steps .row h6,
-    section.steps .row p {
-      color: #85CD50 !important; }
-    section.steps .row h3 {
-      font-size: 3rem !important; }
-    section.steps .row h6 {
-      font-size: 2.5rem !important;
+section.steps .row {
+  margin: 5rem 0;
+  font-size: 1.8rem !important; }
+  section.steps .row h1,
+  section.steps .row h2,
+  section.steps .row h3,
+  section.steps .row h6,
+  section.steps .row p {
+    color: #85CD50 !important; }
+  section.steps .row h3 {
+    font-size: 3rem !important; }
+  section.steps .row h6 {
+    font-size: 2.5rem !important;
+    font-weight: bold; }
+  section.steps .row .col.flex {
+    display: flex;
+    padding: 0 !important; }
+    section.steps .row .col.flex img {
+      width: 100%;
+      align-self: center; }
+  section.steps .row .step_count {
+    border: 2px solid #85CD50;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    display: flex; }
+    section.steps .row .step_count div {
+      color: #85CD50 !important;
+      width: 100%;
+      text-align: center;
+      align-self: center;
+      font-size: 1.8rem;
       font-weight: bold; }
-    section.steps .row .col.flex {
-      display: flex;
-      padding: 0 !important; }
-      section.steps .row .col.flex img {
-        width: 100%;
-        align-self: center; }
-    section.steps .row .step_count {
-      border: 2px solid #85CD50;
-      border-radius: 50%;
-      height: 5rem;
-      width: 5rem;
-      display: flex; }
-      section.steps .row .step_count div {
-        color: #85CD50 !important;
-        width: 100%;
-        text-align: center;
-        align-self: center;
-        font-size: 1.8rem;
-        font-weight: bold; }
 
 section.ipo {
   font-size: 1.8rem !important;

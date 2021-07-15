@@ -53,14 +53,14 @@ steps:
     - step_count: 2
       img_link: "img/christin-hume-Hcfwew744z4-unsplash@2x.png"
       img_alt: Person subscribing from laptop
-      title: Registrati su ummadum
+      title: Ricarica i punti
       content: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
       cta_label: Registrati ora
       cta_link: "#"
     - step_count: 3
       img_link: "img/christin-hume-Hcfwew744z4-unsplash@2x.png"
       img_alt: Person subscribing from laptop
-      title: Registrati su ummadum
+      title: Prenota il tuo viaggio
       content: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
       cta_label: Registrati ora
       cta_link: "#"
