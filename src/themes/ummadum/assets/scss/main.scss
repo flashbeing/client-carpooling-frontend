@@ -1,5 +1,6 @@
-$primary: #96e85a;
-$primary-hover: #a1ea6b;
+$primary: #85CD50;
+$primary-hover: #90d15f;
+$primary-accent: #96E85A;
 $link: #176355;
 $link-hover: #1b734d;
 $dark-border: #7e7e7e;
@@ -13,6 +14,7 @@ $dark-bg: #262626;
 @import "partials/generic-offset-image";
 @import "partials/col-images";
 @import "partials/img-text-img";
+@import "partials/steps";
 @import "pages/home";
 @import "pages/services";
 @import "pages/observatory";

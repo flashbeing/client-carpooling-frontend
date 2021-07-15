@@ -38,3 +38,29 @@ discover_community:
   content: CarPooling permette di cercare e prenotare autisti solo da comunità di persone che conosci e di cui ti fidi, come i tuoi colleghi di lavoro o amici del tuo club sportivo. Non viaggerai mai più cono sconosciuti.
   cta_label: Prenota viaggio
   cta_link: "#"
+
+steps: 
+  title: In un attimo sei a bordo
+
+  step: 
+    - step_count: 1
+      img_link: "img/christin-hume-Hcfwew744z4-unsplash@2x.png"
+      img_alt: Person subscribing from laptop
+      title: Registrati su ummadum
+      content: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
+      cta_label: Registrati ora
+      cta_link: "#"
+    - step_count: 2
+      img_link: "img/christin-hume-Hcfwew744z4-unsplash@2x.png"
+      img_alt: Person subscribing from laptop
+      title: Registrati su ummadum
+      content: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
+      cta_label: Registrati ora
+      cta_link: "#"
+    - step_count: 3
+      img_link: "img/christin-hume-Hcfwew744z4-unsplash@2x.png"
+      img_alt: Person subscribing from laptop
+      title: Registrati su ummadum
+      content: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
+      cta_label: Registrati ora
+      cta_link: "#"

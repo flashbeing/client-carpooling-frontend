@@ -131,8 +131,10 @@ button {
     height: 4rem;
     border-radius: 10px !important;
     transition: all 0.5s ease;
+    border: none !important;
     &:hover {
         text-decoration: none !important;
+        border: none !important;
     }
 
     &.btn-link {
@@ -149,6 +151,10 @@ button {
             background-color: $primary-hover !important;
         }
     }
+}
+
+.row {
+    display: flex !important;
 }
 
 input {
