@@ -22,7 +22,7 @@ community:
   img_three_name: IDM Suedtirol
   img_three_link: https://www.idm-suedtirol.com
 
-points:
+discover_partner:
   img_link: "img/maximilian-wachter-Zigz7HdNS7I-unsplash.png"
 
   title: Un innovativo sistema a punti
@@ -30,3 +30,11 @@ points:
   cta_label: Scopri i negozi partner
   cta_link: "#"
   text_overlay: 1km = 10 punti = 0.10€
+
+discover_community:
+  img_link: "img/darwin-vegher-IAc1x02D9K0-unsplash.png"
+
+  title: La community di cui ti fidi
+  content: CarPooling permette di cercare e prenotare autisti solo da comunità di persone che conosci e di cui ti fidi, come i tuoi colleghi di lavoro o amici del tuo club sportivo. Non viaggerai mai più cono sconosciuti.
+  cta_label: Prenota viaggio
+  cta_link: "#"

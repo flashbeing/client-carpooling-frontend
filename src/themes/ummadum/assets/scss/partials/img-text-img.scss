@@ -1,6 +1,32 @@
-section.img-text {
-    min-height: 60vh;
+section.img-text-img {
     font-size: 1.8rem !important;
+    padding: 0;
+
+    .img-text {
+        .col.bg-image {
+            background-color: $link;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            color: $primary !important;
+        }
+    }
+
+    .text-img {
+        .col.bg-image {
+            background-color: white;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            color: $link !important;
+        }
+    }
 
     & > div {
         position: relative;
@@ -13,7 +39,6 @@ section.img-text {
 
             .col.bg-image {
                 height: 100%;
-                background-color: $link;
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -24,13 +49,6 @@ section.img-text {
     .container {
         padding: 10rem 0 !important;
         background-color: transparent;
-
-        h1,
-        h2,
-        h3,
-        p {
-            color: $primary !important;
-        }
 
         .semi-opacity {
             position: absolute;

@@ -1,23 +1,23 @@
 {{"<!-- Img - Text -->" | safeHTML }}
 <section class="img-text-img">
-  <div class="img-text">
+  <div class="text-img">
     <div class="background-absolute">
-      <div class="col col-12 col-lg-6 bg-image" style="background-image: url('{{.img_link}}') !important;"></div>
       <div class="col col-12 col-lg-6 bg-image"></div>
+      <div class="col col-12 col-lg-6 bg-image" style="background-image: url('{{.img_link}}') !important;"></div>
     </div>
 
     <div class="container">
       <div class="row">
         <div class="col col-12 col-lg-5 square card">
-          <p></p>
-        </div>
-        <div class="col col-lg-2"></div>
-        <div class="col col-12 col-lg-5 square card">
           <h3>{{.title}}</h3>
           <p>{{.content}}</p>
           <a href="{{.cta_link}}">
-              <div class="btn btn-primary">{{ .cta_label }}</div>
+              <div class="btn btn-link">{{ .cta_label }}</div>
           </a>
+        </div>
+        <div class="col col-lg-2"></div>
+        <div class="col col-12 col-lg-5 square card">
+          <p></p>
         </div>
       </div>
 
