@@ -1,4 +1,5 @@
-$primary: #96E85A;
+$primary: #96e85a;
+$primary-hover: #a1ea6b;
 $link: #176355;
 $link-hover: #1b734d;
 $dark-border: #7e7e7e;
@@ -11,6 +12,7 @@ $dark-bg: #262626;
 @import "partials/footer";
 @import "partials/generic-offset-image";
 @import "partials/col-images";
+@import "partials/img-text-img";
 @import "pages/home";
 @import "pages/services";
 @import "pages/observatory";

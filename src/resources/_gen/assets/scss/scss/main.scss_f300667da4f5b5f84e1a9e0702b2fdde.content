@@ -11,7 +11,7 @@ body {
   overflow-x: hidden; }
 
 .bg-primary {
-  background-color: #96E85A !important; }
+  background-color: #96e85a !important; }
   .bg-primary h1,
   .bg-primary h2,
   .bg-primary h3,
@@ -39,7 +39,7 @@ h2 {
 
 h3 {
   font-weight: bold !important;
-  font-size: 2rem !important; }
+  font-size: 2.5rem !important; }
 
 .font-small {
   font-size: 0.75rem; }
@@ -113,6 +113,11 @@ button {
     background-color: #176355 !important; }
     .btn.btn-link:hover {
       background-color: #1b734d !important; }
+  .btn.btn-primary {
+    color: white !important;
+    background-color: #96e85a !important; }
+    .btn.btn-primary:hover {
+      background-color: #a1ea6b !important; }
 
 input {
   height: 60px;
@@ -920,7 +925,7 @@ header {
     background-size: contain; }
   header #header-top {
     height: 90px;
-    background-color: #96E85A;
+    background-color: #96e85a;
     color: white !important;
     font-size: bold;
     z-index: 100;
@@ -1204,6 +1209,40 @@ footer {
     max-width: 300px;
     width: auto;
     padding: 1rem 5rem; }
+
+section.img-text {
+  min-height: 60vh;
+  font-size: 1.8rem !important; }
+  section.img-text > div {
+    position: relative; }
+    section.img-text > div .background-absolute {
+      position: absolute !important;
+      z-index: 0;
+      height: 100%;
+      width: 100%; }
+      section.img-text > div .background-absolute .col.bg-image {
+        height: 100%;
+        background-color: #176355;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; }
+  section.img-text .container {
+    padding: 10rem 0 !important;
+    background-color: transparent; }
+    section.img-text .container h1,
+    section.img-text .container h2,
+    section.img-text .container h3,
+    section.img-text .container p {
+      color: #96e85a !important; }
+    section.img-text .container .semi-opacity {
+      position: absolute;
+      width: 100%;
+      margin-top: 2.5rem;
+      font-size: 3rem;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.7); }
+    section.img-text .container .row .col {
+      align-self: center; }
 
 #home .banner {
   width: 100%;

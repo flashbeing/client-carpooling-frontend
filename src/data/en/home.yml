@@ -21,3 +21,12 @@ community:
   img_three: "img/idm.png" 
   img_three_name: IDM Suedtirol
   img_three_link: https://www.idm-suedtirol.com
+
+points:
+  img_link: "img/maximilian-wachter-Zigz7HdNS7I-unsplash.png"
+
+  title: Un innovativo sistema a punti
+  content: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista. Potrai poi spenderli all’interno dei nostri negozi convenzionati. I punti li puoi acquistare direttamente del sito web Ummadum, oppure sarà direttamente il tuo datore di lavoro a caricarli.
+  cta_label: Scopri i negozi partner
+  cta_link: "#"
+  text_overlay: 1km = 10 punti = 0.10€
