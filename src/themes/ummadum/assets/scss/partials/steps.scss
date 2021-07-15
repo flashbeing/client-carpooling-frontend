@@ -8,12 +8,23 @@ section.steps {
         h1,
         h2,
         h3,
+        h6,
         p {
             color: $primary !important;
         }
 
+        h3 {
+            font-size: 3rem !important;
+        }
+
+        h6 {
+            font-size: 2.5rem !important;
+            font-weight: bold;
+        }
+
         .col.flex {
             display: flex;
+            padding: 0 !important;
             img {
                 width: 100%;
                 align-self: center;

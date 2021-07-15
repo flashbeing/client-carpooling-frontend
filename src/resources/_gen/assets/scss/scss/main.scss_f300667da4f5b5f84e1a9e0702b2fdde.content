@@ -1265,10 +1265,17 @@ section.steps {
     section.steps .row h1,
     section.steps .row h2,
     section.steps .row h3,
+    section.steps .row h6,
     section.steps .row p {
       color: #85CD50 !important; }
+    section.steps .row h3 {
+      font-size: 3rem !important; }
+    section.steps .row h6 {
+      font-size: 2.5rem !important;
+      font-weight: bold; }
     section.steps .row .col.flex {
-      display: flex; }
+      display: flex;
+      padding: 0 !important; }
       section.steps .row .col.flex img {
         width: 100%;
         align-self: center; }

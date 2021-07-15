@@ -1,8 +1,13 @@
 {{"<!-- Steps -->" | safeHTML }}
 <section class="steps">
   <div class="container">
+    <div class="row">
+      <div class="col col-12 col-lg-4 square card flex">
+        <h3>{{ .title }}</h3>
+      </div>
+    </div>
     {{ range .step }}
-      <div class="row row-eq-height">
+      <div class="row">
         <div class="col col-12 col-lg-3 square card flex">
           <img src="{{ .img_link }}" alt="{{ .img_alt }}" />
         </div>
@@ -14,7 +19,7 @@
           </div>
         </div>
         <div class="col col-12 col-lg-7 square card">
-          <h3>{{.title}}</h3>
+          <h6>{{.title}}</h6>
           <p>{{.content}}</p>
           <a href="{{.cta_link}}">
               <div class="btn btn-primary">{{ .cta_label }}</div>
