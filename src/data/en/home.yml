@@ -64,3 +64,7 @@ steps:
       content: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
       cta_label: Registrati ora
       cta_link: "#"
+
+become_partner: 
+  title: Diventa partner
+  content: CarPooling non va oltre i semplici autisti e passeggeri, ma da un’intera community di aziende e negozi partner che stanno contribuendo a rivoluzionare il mondo dei trasporti sostenibili in Alto Adige.
