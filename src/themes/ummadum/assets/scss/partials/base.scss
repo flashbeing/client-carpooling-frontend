@@ -17,6 +17,7 @@ body {
     h1,
     h2,
     h3,
+    h6,
     p {
         color: $link !important;
     }
@@ -24,6 +25,14 @@ body {
 
 .bg-link {
     background-color: $link !important;
+
+    h1,
+    h2,
+    h3,
+    h6,
+    p {
+        color: $primary !important;
+    }
 }
 
 a {

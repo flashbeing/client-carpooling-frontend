@@ -15,11 +15,18 @@ body {
   .bg-primary-accent h1,
   .bg-primary-accent h2,
   .bg-primary-accent h3,
+  .bg-primary-accent h6,
   .bg-primary-accent p {
     color: #176355 !important; }
 
 .bg-link {
   background-color: #176355 !important; }
+  .bg-link h1,
+  .bg-link h2,
+  .bg-link h3,
+  .bg-link h6,
+  .bg-link p {
+    color: #85CD50 !important; }
 
 a {
   color: #176355;
@@ -117,7 +124,7 @@ button {
     color: white !important;
     background-color: #176355 !important; }
     .btn.btn-link:hover {
-      background-color: #1b734d !important; }
+      background-color: #126858 !important; }
   .btn.btn-primary {
     color: white !important;
     background-color: #85CD50 !important; }
@@ -1208,6 +1215,39 @@ footer {
     text-decoration: none !important; }
   .generic-offset-image a img {
     height: 60vh; }
+
+section.generic-boxes .square {
+  padding: 0;
+  position: relative; }
+  section.generic-boxes .square::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%; }
+  section.generic-boxes .square > a {
+    position: absolute;
+    object-fit: cover;
+    text-decoration: none !important;
+    transition: all 0.5s ease; }
+    section.generic-boxes .square > a.bg-link:hover {
+      background-color: #126858 !important;
+      transition: all 0.5s ease; }
+
+section.generic-boxes .single-box-block {
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  margin-left: 15px;
+  padding: 30px; }
+  section.generic-boxes .single-box-block .single-box-content {
+    height: calc(100% - 60px); }
+    section.generic-boxes .single-box-block .single-box-content .single-box-text {
+      height: 100%; }
+
+section.generic-boxes h6 {
+  font-size: 3rem;
+  font-weight: bold; }
+
+section.generic-boxes p {
+  font-size: 1.8rem; }
 
 .col-images .row {
   text-align: center; }
