@@ -1,0 +1,40 @@
+section.generic-accordions {
+    background-color: $blue;
+    color: $primary;
+    font-size: 1.8rem;
+
+    .accordion {
+        border-bottom: 1px solid $primary;
+        &.closed {
+            .accordion-content {
+                max-height: 0;
+                overflow: hidden;
+            }
+        }
+        .accordion-btn {
+            padding: 1rem 0;
+            cursor: pointer;
+        }
+        .accordion-content {
+            font-style: italic;
+            transition: all .2s ease;
+            max-height: 400px;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+        color: $primary !important;
+    }
+
+    h3 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    p {
+        margin: 1rem !important;
+    }
+}

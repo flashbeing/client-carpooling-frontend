@@ -1148,6 +1148,33 @@ footer .row img {
   .generic-offset-image a img {
     height: 60vh; }
 
+section.generic-accordions {
+  background-color: #0C284E;
+  color: #85CD50;
+  font-size: 1.8rem; }
+  section.generic-accordions .accordion {
+    border-bottom: 1px solid #85CD50; }
+    section.generic-accordions .accordion.closed .accordion-content {
+      max-height: 0;
+      overflow: hidden; }
+    section.generic-accordions .accordion .accordion-btn {
+      padding: 1rem 0;
+      cursor: pointer; }
+    section.generic-accordions .accordion .accordion-content {
+      font-style: italic;
+      transition: all .2s ease;
+      max-height: 400px; }
+  section.generic-accordions h1,
+  section.generic-accordions h2,
+  section.generic-accordions h3,
+  section.generic-accordions p {
+    color: #85CD50 !important; }
+  section.generic-accordions h3 {
+    font-size: 3rem;
+    font-weight: bold; }
+  section.generic-accordions p {
+    margin: 1rem !important; }
+
 section.generic-boxes .square {
   padding: 0;
   position: relative; }

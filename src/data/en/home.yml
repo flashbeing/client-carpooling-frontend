@@ -83,3 +83,12 @@ boxes:
       content: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
       box_link: "#"
       btn_label: Aderisci
+  
+faq:
+  title: Frequently Asked Questions
+  accordion:
+    - question: Con CarPooling non paghi, spendi punti come passeggero?
+      answer: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
+    - question: Con CarPooling non paghi, spendi punti come passeggero?
+      answer: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
+      
