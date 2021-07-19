@@ -125,14 +125,13 @@ input {
         text-transform: uppercase;
         color: rgba(33, 33, 33, 0.3);
         padding: 10px;
-        font-size: 1rem;
         margin: 0;
         &.current {
             color: black;
             font-weight: 600;
         }
         &:hover {
-            color: black;
+            color: white;
         }
         &+a {
             position: relative;

@@ -154,15 +154,15 @@ input {
   font-size: 0; }
   .menu-horizontal a {
     text-transform: uppercase;
-    color: rgba(33, 33, 33, 0.3);
+    color: rgba(255, 255, 255, 0.9);
     padding: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0; }
     .menu-horizontal a.current {
-      color: black;
+      color: white;
       font-weight: 600; }
     .menu-horizontal a:hover {
-      color: black; }
+      color: white; }
     .menu-horizontal a + a {
       position: relative; }
       .menu-horizontal a + a::before {
@@ -170,7 +170,7 @@ input {
         display: block;
         width: 1px;
         height: 22px;
-        background-color: rgba(33, 33, 33, 0.3);
+        background-color: rgba(255, 255, 255, 0.5);
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -1092,113 +1092,30 @@ header {
     header #header-top .title {
       display: none !important; } }
 footer {
-  height: 60vh;
-  margin: 0;
-  padding: 0;
-  background-color: #262626;
-  background-image: url("../footer-pattern.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
+  background: #85CD50;
   color: white;
-  font-size: 0; }
-  footer a {
+  font-size: 1.5rem !important; }
+  footer h6 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white !important; }
+  footer .col {
+    margin-bottom: 2rem; }
+  footer .row ul {
+    list-style: none;
+    padding-left: 0; }
+  footer .row a {
     color: white; }
-  footer .desktop-half {
-    height: 60vh; }
-  footer .content {
-    position: relative;
-    padding: 50px 0;
-    padding-right: 100px;
-    font-size: 18px; }
-    footer .content b {
-      font-weight: 600; }
-    footer .content .light {
-      font-weight: 300; }
-    footer .content .flex {
-      align-items: baseline; }
-      footer .content .flex > div {
-        margin-top: 25px; }
-    footer .content .menu {
-      position: absolute;
-      bottom: 25px;
-      margin-left: -10px;
-      background: transparent; }
-    footer .content .menu-horizontal {
-      background: transparent; }
-      footer .content .menu-horizontal a {
-        color: white;
-        text-transform: none; }
-        footer .content .menu-horizontal a::before {
-          background-color: white; }
-        footer .content .menu-horizontal a:hover:hover {
-          text-shadow: 0 0 0.01px white; }
-  @media (max-width: 1199px) {
-    footer .content {
-      padding: 25px;
-      padding-left: 0; } }
-  @media (max-width: 1023px) {
-    footer {
-      height: 560px; }
-      footer .desktop-half {
-        height: 300px; }
-      footer .map {
-        height: 240px;
-        width: 100%;
-        padding-bottom: 25px; } }
-  @media (max-width: 500px) {
-    footer {
-      height: 800px; }
-      footer .desktop-half {
-        height: 520px; }
-      footer .map {
-        height: 240px; } }
-.alert {
-  color: #2e3131;
-  background-color: white;
-  max-width: 580px;
-  width: 50vw;
-  color: #2e3131 !important;
-  padding: 30px; }
+  footer .copyright {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    color: white; }
 
-.alert .de,
-.alert .it {
-  display: block !important; }
-
-.alert-cookie {
-  position: fixed;
-  border: solid 1px black;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-  z-index: 9999; }
-  @media screen and (max-width: 768px) {
-    .alert-cookie {
-      width: auto;
-      left: 0; } }
-.alert-cookie p {
-  margin-bottom: 10px; }
-
-.alert-cookie .button {
-  margin-top: 20px;
-  color: #2e3131;
-  clear: both;
-  display: block;
-  padding: 10px 20px;
-  border: 1px solid #2e3131;
-  width: fit-content;
-  width: -moz-fit-content; }
-
-.alert-cookie:hover {
-  color: #2e3131;
-  cursor: pointer; }
-
-.alert-cookie .negative {
-  border: 1px solid var(--color-background);
-  color: var(--color-background); }
-  .alert-cookie .negative:hover {
-    background: var(--color-background);
-    color: var(--color-primary); }
+footer .row img {
+  width: 50%;
+  max-width: 200px; }
 
 .generic-offset-image {
   margin-bottom: 5rem;
@@ -1258,7 +1175,8 @@ section.generic-boxes p {
     width: auto;
     padding: 1rem 5rem; }
   .col-images .row p {
-    font-size: 1.8rem !important; }
+    font-size: 1.8rem !important;
+    margin-bottom: 0 !important; }
 
 section.img-text-img {
   font-size: 1.8rem !important;
@@ -1386,271 +1304,3 @@ section.ipo {
 
 #home .container {
   padding: 0; }
-
-#services h2 {
-  margin-top: 25px; }
-
-#services .cards {
-  font-size: 0;
-  margin: 0 auto;
-  width: auto;
-  border-bottom: 1px solid #cccccc; }
-  #services .cards .card {
-    box-sizing: border-box;
-    font-size: 1rem;
-    display: inline-block;
-    vertical-align: top;
-    border-top: 1px solid #cccccc; }
-    @media (min-width: 980px) {
-      #services .cards .card:nth-child(even) {
-        border-left: 1px solid #cccccc; } }
-    #services .cards .card .card-content {
-      text-align: left;
-      position: relative;
-      height: 675px;
-      margin: 25px; }
-      #services .cards .card .card-content .image {
-        height: 300px;
-        background-size: cover;
-        background-position: center;
-        cursor: pointer; }
-      #services .cards .card .card-content .footer {
-        position: absolute;
-        bottom: 0; }
-        #services .cards .card .card-content .footer .price {
-          display: inline-block;
-          margin-left: 10px; }
-
-#services #booking {
-  display: none;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 200;
-  background: rgba(255, 255, 255, 0.9); }
-  #services #booking.is-active {
-    display: block; }
-  #services #booking .booking-card {
-    position: fixed;
-    width: 70vw;
-    height: 90vh;
-    left: 50vw;
-    top: 50vh;
-    margin-left: -35vw;
-    margin-top: -45vh;
-    box-sizing: border-box;
-    padding: 25px 75px;
-    overflow: scroll;
-    border: #cccccc solid 1px;
-    background: white; }
-    #services #booking .booking-card #service-title {
-      font-weight: 300;
-      font-size: 1.2rem;
-      margin: 10px 0 75px 3px; }
-    #services #booking .booking-card #service-booking-close {
-      position: fixed;
-      margin-top: 7px;
-      right: 16vw; }
-    #services #booking .booking-card .hamburger.is-active .hamburger-inner,
-    #services #booking .booking-card .hamburger.is-active .hamburger-inner::before,
-    #services #booking .booking-card .hamburger.is-active .hamburger-inner::after {
-      background-color: #7e7e7e; }
-    #services #booking .booking-card form .loader {
-      margin: 0;
-      margin-left: 10px;
-      margin-bottom: -5px; }
-
-#services .section-footer {
-  font-weight: 300;
-  font-size: 1.2rem; }
-  #services .section-footer button {
-    margin-top: 1.5rem; }
-
-#services .section-header {
-  font-weight: 300;
-  font-size: 1.2rem; }
-  #services .section-header button {
-    margin-top: 1.5rem; }
-
-@media (max-width: 1023px) {
-  #services #booking .booking-card {
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    top: 0;
-    left: 0; }
-    #services #booking .booking-card #service-booking-close {
-      right: 25px; } }
-
-@media (max-width: 979px) {
-  #services .cards .card .card-content {
-    margin-left: 0;
-    margin-right: 0; } }
-
-@media (max-width: 767px) {
-  #services .cards .card .card-content {
-    height: 850px; }
-    #services .cards .card .card-content .image {
-      height: 250px; } }
-
-@media (max-width: 500px) {
-  #services .cards .card .card-content {
-    height: auto;
-    padding-bottom: 60px; }
-  #services #booking .booking-card #service-title {
-    margin-bottom: 50px; }
-  #services .booking-card {
-    padding-left: 50px !important;
-    padding-right: 75px !important; } }
-
-#observatory {
-  margin-bottom: 30px; }
-  #observatory .container {
-    padding: 0; }
-    #observatory .container .card {
-      height: 450px;
-      width: 100%;
-      margin: 0 -10vw;
-      padding: 0 10vw; }
-      #observatory .container .card.even {
-        background: white; }
-      #observatory .container .card.odd {
-        background: #f9f9f9; }
-      #observatory .container .card .flex {
-        position: relative;
-        width: 100%; }
-        #observatory .container .card .flex .title {
-          margin-bottom: 25px; }
-        #observatory .container .card .flex .images {
-          font-size: 0;
-          height: 350px;
-          width: 247px; }
-          #observatory .container .card .flex .images .image {
-            height: 100%;
-            width: 100%;
-            border: 2px solid;
-            border-color: black;
-            background-size: cover;
-            margin-right: 8%; }
-        #observatory .container .card .flex .content {
-          width: 65vw;
-          max-width: 950px; }
-          #observatory .container .card .flex .content button {
-            margin-top: 25px; }
-  @media (max-width: 979px) {
-    #observatory .container {
-      margin-bottom: 25px; }
-      #observatory .container .card {
-        height: auto; }
-        #observatory .container .card .flex .images {
-          height: 100vw;
-          width: 100vw;
-          margin: 0px auto; }
-        #observatory .container .card .flex .content {
-          width: 100%; }
-        #observatory .container .card.even .content {
-          margin-bottom: 75px; }
-        #observatory .container .card.odd .images {
-          margin-bottom: 0; } }
-#services-single h2 {
-  margin: 50px 0;
-  text-transform: uppercase; }
-
-#services-single .service {
-  display: flex;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #cccccc; }
-  #services-single .service .image {
-    width: 50%;
-    height: 300px;
-    margin: auto 0;
-    background-size: cover;
-    background-position: center; }
-  #services-single .service .content {
-    height: auto;
-    width: 50%;
-    max-width: 800px;
-    margin: auto 0;
-    margin-left: 5vw; }
-    #services-single .service .content p {
-      margin-top: 0; }
-
-@media (max-width: 1023px) {
-  #services-single .service {
-    flex-wrap: wrap; }
-    #services-single .service .image {
-      width: 100%; }
-    #services-single .service .content {
-      width: 100%;
-      max-width: 100%;
-      margin: 50px 0 0 0; } }
-
-#experts .cards {
-  border-bottom: 1px solid #cccccc; }
-  #experts .cards .card {
-    margin-bottom: 75px;
-    padding: 25px 0;
-    border-top: 1px solid #cccccc; }
-    #experts .cards .card .content {
-      display: flex; }
-      #experts .cards .card .content div {
-        margin: auto 0; }
-        #experts .cards .card .content div p {
-          margin-bottom: 0; }
-      #experts .cards .card .content .logo {
-        height: 200px;
-        width: 200px;
-        background-size: contain;
-        margin-right: 25px; }
-      #experts .cards .card .content .description {
-        width: 60%;
-        max-width: 800px;
-        margin-bottom: -55px; }
-        #experts .cards .card .content .description .tag {
-          display: inline-block;
-          margin: 0; }
-          #experts .cards .card .content .description .tag span {
-            background-color: #B9D200; }
-        #experts .cards .card .content .description button {
-          margin-top: 25px; }
-
-@media (max-width: 500px) {
-  #experts .cards .card .content {
-    flex-wrap: wrap; }
-    #experts .cards .card .content .logo {
-      margin-bottom: 25px; }
-    #experts .cards .card .content .description {
-      width: 100%; } }
-
-.contact {
-  width: 800px;
-  margin-bottom: 75px; }
-  .contact form div {
-    margin-top: 75px; }
-    .contact form div.no-margin {
-      margin-top: 10px; }
-  .contact form input {
-    width: 45%; }
-    .contact form input#message {
-      width: 100%; }
-  .contact form button {
-    margin: 75px 0 25px 0; }
-  .contact form #response {
-    display: inline-block;
-    color: #7e7e7e;
-    margin-left: 10px; }
-  @media (max-width: 1023px) {
-    .contact {
-      width: 100%; } }
-  @media (max-width: 500px) {
-    .contact form div {
-      margin: 0; }
-    .contact form .description {
-      margin-top: 50px; }
-    .contact form input {
-      width: 100%;
-      margin-top: 25px; }
-    .contact form #agreement {
-      margin-top: 75px; } }
