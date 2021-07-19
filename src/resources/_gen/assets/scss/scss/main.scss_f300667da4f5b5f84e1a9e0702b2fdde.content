@@ -942,7 +942,7 @@ header {
     height: 90px;
     background-color: #96E85A;
     color: white !important;
-    font-size: bold;
+    font-size: 1.5rem;
     z-index: 100;
     position: fixed;
     top: 0;
@@ -957,6 +957,17 @@ header {
         font-size: 1.2rem; }
       header #header-top.is-active .container .header-wrap .sponsor {
         display: none; }
+    header #header-top .menu li {
+      line-height: 1; }
+    header #header-top .menu ul li:last-child {
+      background-color: white;
+      border-radius: 10px !important;
+      margin-left: 12.5px; }
+      header #header-top .menu ul li:last-child a {
+        color: #176355 !important;
+        margin: 0 1rem; }
+        header #header-top .menu ul li:last-child a:hover {
+          text-decoration: none; }
     header #header-top .container .header-wrap {
       width: auto;
       display: flex;

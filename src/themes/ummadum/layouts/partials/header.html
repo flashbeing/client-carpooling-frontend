@@ -15,7 +15,7 @@
                     <div class="sponsor"></div>
                     <div class="menu">
                         <ul class="flex">
-                            {{ $currentPage := . }} {{ range sort .Site.Menus.main }} {{ if ne .Name "Home" }}
+                            {{ $currentPage := . }} {{ range sort .Site.Menus.main.ByWeight }} {{ if ne .Name "Home" }}
                             <li class="{{ if eq $currentPage.Title .Name}}current{{ end }}">
                                 <a class="menu-item-link" href="{{ .URL | absLangURL | safeURL }}">
                                 {{ .Name }}

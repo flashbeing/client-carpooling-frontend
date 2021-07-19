@@ -9,23 +9,24 @@ header {
     .title {
         text-transform: uppercase;
     }
-    #logo {}
+    #logo {
+    }
     #logo-description {
         height: 41px;
         width: 125px;
-        background-image: url('../logo_description.svg');
+        background-image: url("../logo_description.svg");
         background-repeat: no-repeat;
         margin-bottom: -29px;
     }
     .sponsor {
-        background-image: url('../sponsor.png');
+        background-image: url("../sponsor.png");
         background-size: contain;
     }
     #header-top {
         height: 90px;
         background-color: $primary-accent;
         color: white !important;
-        font-size: bold;
+        font-size: 1.5rem;
         z-index: 100;
         position: fixed;
         top: 0;
@@ -42,6 +43,23 @@ header {
                 }
                 .sponsor {
                     display: none;
+                }
+            }
+        }
+        .menu {
+            li {
+                line-height: 1;
+            }
+            ul li:last-child {
+                background-color: white;
+                border-radius: 10px !important;
+                margin-left: 12.5px;
+                a {
+                    color: $link !important;
+                    margin: 0 1rem;
+                    &:hover {
+                        text-decoration: none;
+                    }
                 }
             }
         }
@@ -78,7 +96,7 @@ header {
                         list-style: none;
                         li {
                             a {
-                                color: white
+                                color: white;
                             }
                             padding: 12.5px;
                             &.current {
@@ -129,25 +147,17 @@ header {
         }
         position: fixed;
         top: 90px;
-        box-shadow: 0px 0 50px 0px rgba(0,
-        0,
-        0,
-        0.2);
+        box-shadow: 0px 0 50px 0px rgba(0, 0, 0, 0.2);
         right: 0;
         bottom: 0;
         width: 570px;
         z-index: 90;
         background-color: white;
-        -webkit-transition: opacity 0.5s,
-        transform 0.5s;
-        -moz-transition: opacity 0.5s,
-        transform 0.5s;
-        -o-transition: opacity 0.5s,
-        transform 0.5s;
-        -ms-transition: opacity 0.5s,
-        transform 0.5s;
-        transition: opacity 0.5s,
-        transform 0.5s;
+        -webkit-transition: opacity 0.5s, transform 0.5s;
+        -moz-transition: opacity 0.5s, transform 0.5s;
+        -o-transition: opacity 0.5s, transform 0.5s;
+        -ms-transition: opacity 0.5s, transform 0.5s;
+        transition: opacity 0.5s, transform 0.5s;
         will-change: opacity;
         overflow: auto;
         width: auto;
