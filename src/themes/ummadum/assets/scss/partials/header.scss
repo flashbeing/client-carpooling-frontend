@@ -51,9 +51,16 @@ header {
                 line-height: 1;
             }
             ul li:last-child {
-                background-color: white;
+                background-color: rgba(255, 255, 255, 0.9);
                 border-radius: 10px !important;
                 margin-left: 12.5px;
+                transition: all 0.5 ease;
+                
+                &:hover {
+                    transition: all 0.5 ease;
+                    background-color: white;
+                }
+
                 a {
                     color: $link !important;
                     margin: 0 1rem;

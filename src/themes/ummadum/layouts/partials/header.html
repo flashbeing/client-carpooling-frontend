@@ -15,13 +15,13 @@
                     <div class="sponsor"></div>
                     <div class="menu">
                         <ul class="flex">
-                            {{ $currentPage := . }} {{ range sort .Site.Menus.main.ByWeight }} {{ if ne .Name "Home" }}
+                            {{ $currentPage := . }} {{ range .Site.Menus.main.ByWeight }}
                             <li class="{{ if eq $currentPage.Title .Name}}current{{ end }}">
                                 <a class="menu-item-link" href="{{ .URL | absLangURL | safeURL }}">
                                 {{ .Name }}
                                 </a>
                             </li>
-                            {{end}} {{end}}
+                            {{end}}
                         </ul>
                     </div>
                     {{ partial "lang.html" . }}

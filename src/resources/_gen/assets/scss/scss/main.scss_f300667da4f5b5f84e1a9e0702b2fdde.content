@@ -40,11 +40,11 @@ p {
   margin-bottom: 3rem !important; }
 
 h1 {
-  font-weight: bold;
+  font-weight: bold !important;
   font-size: 3rem; }
 
 h2 {
-  font-weight: bold;
+  font-weight: bold !important;
   font-size: 2rem; }
 
 h3 {
@@ -960,9 +960,13 @@ header {
     header #header-top .menu li {
       line-height: 1; }
     header #header-top .menu ul li:last-child {
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0.9);
       border-radius: 10px !important;
-      margin-left: 12.5px; }
+      margin-left: 12.5px;
+      transition: all 0.5 ease; }
+      header #header-top .menu ul li:last-child:hover {
+        transition: all 0.5 ease;
+        background-color: white; }
       header #header-top .menu ul li:last-child a {
         color: #176355 !important;
         margin: 0 1rem; }

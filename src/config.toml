@@ -19,23 +19,48 @@ languageName = "English"
 contentDir = "content/en"
 
 [[languages.en.menu.main]]
-url    = "#how-does-it-work"
+url    = "#"
 name   = "How does it work"
-weight = 0
+weight = 10
 
 [[languages.en.menu.main]]
+url    = "#"
+name   = "Partner"
+weight = 20
+
+[[languages.en.menu.main]]
+url    = "#"
+name   = "FAQ"
+weight = 30
+
+[[languages.en.menu.main]]
+url    = "#"
+name   = "Book a travel"
+weight = 40
+
+[languages.it]
+weight = 20
+contentDir = "content/it/"
+languageName = "Italiano"
+
+[[languages.it.menu.main]]
+url    = "#how-does-it-work"
+name   = "Come funziona"
+weight = 0
+
+[[languages.it.menu.main]]
 url    = "#partner"
 name   = "Partner"
 weight = 10
 
-[[languages.en.menu.main]]
+[[languages.it.menu.main]]
 url    = "#faq"
-name   = "FAQ"
+name   = "Domande frequenti"
 weight = 20
 
-[[languages.en.menu.main]]
+[[languages.it.menu.main]]
 url    = "/book"
-name   = "Book a travel"
+name   = "Prenota un viaggio"
 weight = 30
 
 [languages.de]
@@ -61,31 +86,6 @@ weight = 20
 [[languages.de.menu.main]]
 url    = "/book"
 name   = "Buche eine Fahrt"
-weight = 30
-
-[languages.it]
-weight = 20
-contentDir = "content/it/"
-languageName = "Italiano"
-
-[[languages.it.menu.main]]
-url    = "#how-does-it-work"
-name   = "Come funziona"
-weight = 0
-
-[[languages.it.menu.main]]
-url    = "#partner"
-name   = "Partner"
-weight = 10
-
-[[languages.it.menu.main]]
-url    = "#faq"
-name   = "Domande frequenti"
-weight = 20
-
-[[languages.it.menu.main]]
-url    = "/book"
-name   = "Prenota un viaggio"
 weight = 30
 
 [languages.en.footer1]
