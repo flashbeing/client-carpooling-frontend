@@ -1257,6 +1257,8 @@ section.generic-boxes p {
     max-width: 300px;
     width: auto;
     padding: 1rem 5rem; }
+  .col-images .row p {
+    font-size: 1.8rem !important; }
 
 section.img-text-img {
   font-size: 1.8rem !important;
