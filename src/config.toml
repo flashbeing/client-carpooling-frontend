@@ -46,22 +46,22 @@ languageName = "Italiano"
 [[languages.it.menu.main]]
 url    = "#how-does-it-work"
 name   = "Come funziona"
-weight = 0
+weight = 10
 
 [[languages.it.menu.main]]
 url    = "#partner"
 name   = "Partner"
-weight = 10
+weight = 20
 
 [[languages.it.menu.main]]
 url    = "#faq"
 name   = "Domande frequenti"
-weight = 20
+weight = 30
 
 [[languages.it.menu.main]]
 url    = "/book"
 name   = "Prenota un viaggio"
-weight = 30
+weight = 40
 
 [languages.de]
 weight = 10
@@ -71,22 +71,28 @@ languageName = "Deutsch"
 [[languages.de.menu.main]]
 url    = "#how-does-it-work"
 name   = "Wie es funktioniert"
-weight = 0
+weight = 10
 
 [[languages.de.menu.main]]
 url    = "#partner"
 name   = "Partner"
-weight = 10
+weight = 20
 
 [[languages.de.menu.main]]
 url    = "#faq"
 name   = "FAQ"
-weight = 20
+weight = 30
 
 [[languages.de.menu.main]]
 url    = "/book"
 name   = "Buche eine Fahrt"
-weight = 30
+weight = 40
+
+
+######################################## FOOTER
+
+[params.footer]
+copyright = "NOI AG - Via Volta 13/A, I-39100 Bolzano - VAT No.: XXX - Endowment capital XXX € - [Privacy](#)"
 
 [languages.en.footer1]
 title = "The project"
@@ -195,14 +201,3 @@ weight = 10
 url    = "#"
 name   = "Fahrer"
 weight = 20
-
-######################################## FOOTER
-[params.footer]
-logo = "/img/logo-open-data-hub_white.png"
-sponsor = "/img/logo-open-data-hub_white.png"
-
-menu_title_1 = "Data"
-menu_title_2 = "Community"
-menu_title_3 = "Services"
-
-copyright = "NOI AG - Via Volta 13/A, I-39100 Bolzano - VAT No.: 02595720216 - Endowment capital 110.740.000 € - [Privacy](#)"
