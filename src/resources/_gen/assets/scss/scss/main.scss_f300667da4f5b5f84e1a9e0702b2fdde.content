@@ -2,6 +2,7 @@
 html,
 body {
   background: white;
+  color: #176355;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   line-height: 1.4;
@@ -28,7 +29,10 @@ body {
   .bg-link p {
     color: #85CD50 !important; }
 
-a {
+li,
+a,
+a:hover,
+a.menu-item-link {
   color: #176355;
   text-decoration: none; }
 
@@ -132,7 +136,16 @@ button {
       background-color: #90d15f !important; }
 
 .row {
-  display: flex !important; }
+  display: flex !important;
+  justify-content: center; }
+  @media (max-width: 500px) {
+    .row {
+      display: block !important; }
+      .row .col img {
+        margin-bottom: 3rem; } }
+@media (max-width: 500px) {
+  .no-mobile {
+    display: none; } }
 
 input {
   height: 60px;
@@ -243,7 +256,7 @@ input {
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
-    background-color: #000; }
+    background-color: #176355; }
 
 .hamburger-box {
   width: 30px;
@@ -258,7 +271,7 @@ input {
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 30px;
     height: 1px;
-    background-color: #000;
+    background-color: #176355;
     border-radius: 2px;
     position: absolute;
     transition-property: transform;
@@ -1067,7 +1080,7 @@ header {
           padding: 10px 0; }
           header #menu-wrap-mobile .menu ul li a {
             letter-spacing: 0.02em;
-            font-size: 45px;
+            font-size: 1.8rem;
             line-height: 133%;
             text-transform: uppercase; }
     header #menu-wrap-mobile .bottom-decoration {
@@ -1143,6 +1156,11 @@ footer .row img {
       .generic-offset-image > .container > .col.offset {
         margin-top: 5rem;
         margin-bottom: -5rem; }
+        .generic-offset-image > .container > .col.offset img {
+          width: 100%; }
+    @media (max-width: 500px) {
+      .generic-offset-image > .container {
+        display: block; } }
   .generic-offset-image a:hover {
     text-decoration: none !important; }
   .generic-offset-image a img {
@@ -1271,6 +1289,10 @@ section.img-text-img {
       font-size: 3rem;
       font-weight: bold;
       color: rgba(255, 255, 255, 0.7); }
+      @media (max-width: 500px) {
+        section.img-text-img .container .semi-opacity {
+          font-size: 2rem;
+          position: relative; } }
     section.img-text-img .container .row .col {
       align-self: center; }
 
