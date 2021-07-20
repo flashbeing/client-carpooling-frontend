@@ -173,7 +173,7 @@ button {
 .row {
     display: flex !important;
     justify-content: center;
-    @media (max-width: 500px) {
+    @media (max-width: 769px) {
         display: block !important;
         .col img {
             margin-bottom: 3rem;
@@ -182,7 +182,7 @@ button {
 }
 
 .no-mobile {
-    @media(max-width: 500px) {
+    @media(max-width: 768px) {
         display: none;
     }
 }

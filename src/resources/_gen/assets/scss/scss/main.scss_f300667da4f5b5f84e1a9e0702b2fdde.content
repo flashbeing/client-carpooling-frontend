@@ -138,12 +138,12 @@ button {
 .row {
   display: flex !important;
   justify-content: center; }
-  @media (max-width: 500px) {
+  @media (max-width: 769px) {
     .row {
       display: block !important; }
       .row .col img {
         margin-bottom: 3rem; } }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .no-mobile {
     display: none; } }
 
@@ -1077,7 +1077,10 @@ header {
         margin-left: -30px; }
         header #menu-wrap-mobile .menu ul li {
           width: 100%;
+          text-align: center;
           padding: 10px 0; }
+          header #menu-wrap-mobile .menu ul li:last-child {
+            font-weight: bold; }
           header #menu-wrap-mobile .menu ul li a {
             letter-spacing: 0.02em;
             font-size: 1.8rem;
@@ -1158,7 +1161,7 @@ footer .row img {
         margin-bottom: -5rem; }
         .generic-offset-image > .container > .col.offset img {
           width: 100%; }
-    @media (max-width: 500px) {
+    @media (max-width: 999px) {
       .generic-offset-image > .container {
         display: block; } }
   .generic-offset-image a:hover {

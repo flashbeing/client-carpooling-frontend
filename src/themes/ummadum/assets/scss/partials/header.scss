@@ -182,7 +182,11 @@ header {
                 margin-left: -30px;
                 li {
                     width: 100%;
+                    text-align: center;
                     padding: 10px 0;
+                    &:last-child {
+                        font-weight: bold;
+                    }
                     a {
                         letter-spacing: 0.02em;
                         font-size: 1.8rem;
