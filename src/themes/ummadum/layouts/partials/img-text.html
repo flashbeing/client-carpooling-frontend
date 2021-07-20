@@ -2,17 +2,17 @@
 <section class="img-text-img">
   <div class="img-text">
     <div class="background-absolute">
-      <div class="col col-12 col-lg-6 bg-image no-mobile" style="background-image: url('{{.img_link}}');"></div>
-      <div class="col col-12 col-lg-6 bg-image"></div>
+      <div class="col col-12 col-md-6 col-lg-6 bg-image no-mobile" style="background-image: url('{{.img_link}}');"></div>
+      <div class="col col-12 col-md-6 col-lg-6 bg-image"></div>
     </div>
 
     <div class="container">
       <div class="row">
-        <div class="col col-12 col-lg-5 square card">
+        <div class="col col-12 col-md-5 col-lg-5 square card">
           <p></p>
         </div>
-        <div class="col col-lg-2"></div>
-        <div class="col col-12 col-lg-5 square card">
+        <div class="col col-md-2 col-lg-2"></div>
+        <div class="col col-12 col-md-5 col-lg-5 square card">
           <h3>{{.title}}</h3>
           <p>{{.content}}</p>
           <a href="{{.cta_link}}">
@@ -23,7 +23,7 @@
 
       {{ if .text_overlay }}
       <div class="row">
-        <div class="col col-12 col-lg-12 card text-center">
+        <div class="col col-12 col-md-12 col-lg-12 card text-center">
           <h6 class="semi-opacity">{{ .text_overlay }}</h6>
         </div>
       </div>
