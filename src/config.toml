@@ -9,6 +9,9 @@ googleAnalytics = ""
 resampleFilter = "box"
 quality = 10
 
+[params]
+favicon = "/favicon.png"
+
 [params.partner]
 link = "#"
 logo = "/img/partner.png"
