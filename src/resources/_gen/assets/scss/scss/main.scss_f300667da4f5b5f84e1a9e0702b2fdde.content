@@ -12,7 +12,7 @@ body {
   overflow-x: hidden; }
 
 .bg-primary-accent {
-  background-color: #96E85A !important; }
+  background-color: #96e85a !important; }
   .bg-primary-accent h1,
   .bg-primary-accent h2,
   .bg-primary-accent h3,
@@ -27,7 +27,7 @@ body {
   .bg-link h3,
   .bg-link h6,
   .bg-link p {
-    color: #85CD50 !important; }
+    color: #85cd50 !important; }
 
 li,
 a,
@@ -43,6 +43,9 @@ p {
   color: #176355 !important;
   margin-bottom: 3rem !important; }
 
+h4 {
+  color: #176355 !important; }
+
 h1 {
   font-weight: bold !important;
   font-size: 3rem; }
@@ -54,6 +57,10 @@ h2 {
 h3 {
   font-weight: bold !important;
   font-size: 3.5rem !important; }
+
+h4 {
+  font-weight: bold !important;
+  font-size: 2.5rem !important; }
 
 .font-small {
   font-size: 0.75rem; }
@@ -131,7 +138,7 @@ button {
       background-color: #126858 !important; }
   .btn.btn-primary {
     color: white !important;
-    background-color: #85CD50 !important; }
+    background-color: #85cd50 !important; }
     .btn.btn-primary:hover {
       background-color: #90d15f !important; }
 
@@ -165,6 +172,9 @@ input {
 
 .footer-partner-image {
   margin-top: 15px; }
+
+.partners-ct {
+  background-color: #F3F8F7; }
 
 .menu-horizontal {
   font-size: 0; }
@@ -962,7 +972,7 @@ header {
     background-size: contain; }
   header #header-top {
     height: 90px;
-    background-color: #96E85A;
+    background-color: #96e85a;
     color: white !important;
     font-size: 1.5rem;
     z-index: 100;
@@ -1071,7 +1081,7 @@ header {
     overflow: auto;
     width: auto;
     left: 0;
-    background-color: #96E85A; }
+    background-color: #96e85a; }
     header #menu-wrap-mobile.is-active {
       display: block; }
     @media (min-width: 1200px) {
@@ -1134,7 +1144,7 @@ header {
     header #header-top .title {
       display: none !important; } }
 footer {
-  background: #85CD50;
+  background: #85cd50;
   color: white;
   font-size: 1.5rem !important; }
   footer h6 {
@@ -1194,11 +1204,11 @@ footer .row img {
 
 section.generic-accordions {
   padding: 10rem 0;
-  background-color: #0C284E;
-  color: #85CD50;
+  background-color: #0c284e;
+  color: #85cd50;
   font-size: 1.8rem; }
   section.generic-accordions .accordion {
-    border-bottom: 1px solid #85CD50;
+    border-bottom: 1px solid #85cd50;
     max-width: 800px;
     margin: 0 auto; }
     section.generic-accordions .accordion.closed .accordion-btn .icon-down {
@@ -1229,7 +1239,7 @@ section.generic-accordions {
   section.generic-accordions h2,
   section.generic-accordions h3,
   section.generic-accordions p {
-    color: #85CD50 !important; }
+    color: #85cd50 !important; }
   section.generic-accordions h3 {
     font-size: 3rem;
     font-weight: bold; }
@@ -1269,6 +1279,26 @@ section.generic-boxes h6 {
 section.generic-boxes p {
   font-size: 1.8rem; }
 
+.partners-list {
+  text-align: center;
+  overflow: scroll;
+  white-space: nowrap;
+  margin-top: 40px; }
+  .partners-list .partner {
+    display: inline-block;
+    margin: 0 25px; }
+    .partners-list .partner img {
+      height: 130px; }
+    .partners-list .partner p {
+      text-align: center;
+      color: #126858 !important;
+      padding: 10px 0; }
+
+@media (max-width: 979px) {
+  .partners-list {
+    width: 100vw;
+    margin-left: -5vw; } }
+
 .col-images .row {
   text-align: center; }
   .col-images .row a:hover {
@@ -1292,7 +1322,7 @@ section.img-text-img {
     section.img-text-img .img-text h2,
     section.img-text-img .img-text h3,
     section.img-text-img .img-text p {
-      color: #85CD50 !important; }
+      color: #85cd50 !important; }
   section.img-text-img .text-img {
     background-color: white; }
     section.img-text-img .text-img .col.bg-image {
@@ -1351,7 +1381,7 @@ section.steps .row {
   section.steps .row h3,
   section.steps .row h6,
   section.steps .row p {
-    color: #85CD50 !important; }
+    color: #85cd50 !important; }
   section.steps .row h3 {
     font-size: 3.5rem !important; }
   section.steps .row h6 {
@@ -1366,13 +1396,13 @@ section.steps .row {
       width: 100%;
       align-self: center; }
   section.steps .row .step_count {
-    border: 2px solid #85CD50;
+    border: 2px solid #85cd50;
     border-radius: 50%;
     height: 5rem;
     width: 5rem;
     display: flex; }
     section.steps .row .step_count div {
-      color: #85CD50 !important;
+      color: #85cd50 !important;
       width: 100%;
       text-align: center;
       align-self: center;
@@ -1390,7 +1420,7 @@ section.ipo {
   section.ipo .img-text h2,
   section.ipo .img-text h3,
   section.ipo .img-text p {
-    color: #85CD50 !important; }
+    color: #85cd50 !important; }
   section.ipo .text-img .col.bg-image {
     background-color: white; }
   section.ipo .text-img h1,

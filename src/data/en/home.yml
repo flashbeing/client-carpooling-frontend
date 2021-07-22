@@ -83,6 +83,26 @@ boxes:
       content: Con CarPooling non paghi, spendi punti come passeggero e li guadagni da autista.
       box_link: "#"
       btn_label: Aderisci
+
+partners:
+  title: Loro lo sono già
+  partner:
+    - img_link: "img/partner/comune-burgraviato.png"
+      name: Comune Burgraviato
+      link: "#"
+      type: Sperimentazione
+    - img_link: "img/partner/despar.png"
+      name: Despar
+      link: "#"
+      type: Punto vendita
+    - img_link: "img/partner/durst.png"
+      name: Durst
+      link: "#"
+      type: Azienda
+    - img_link: "img/partner/poli.png"
+      name: Poli
+      link: "#"
+      type: Azienda
   
 faq:
   title: Frequently Asked Questions
