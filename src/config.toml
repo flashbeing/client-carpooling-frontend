@@ -11,7 +11,7 @@ quality = 10
 
 [params.partner]
 link = "#"
-logo = "/img/partner.png"
+logo = "/img/partner.svg"
 
 [languages.en]
 weight = 0

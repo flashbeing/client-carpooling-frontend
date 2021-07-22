@@ -2,8 +2,13 @@
 <section class="img-text-img">
   <div class="img-text">
     <div class="background-absolute">
-      <div class="col col-12 col-sm-6 col-md-6 col-lg-6 bg-image no-mobile" style="background-image: url('{{.img_link}}');"></div>
-      <div class="col col-12 col-sm-6 col-md-6 col-lg-6 bg-image"></div>
+      <div
+        class="col col-12 col-sm-6 col-md-6 col-lg-6 bg-image"
+        style="background-image: url('{{.img_link}}');"
+      ></div>
+      <div
+        class="col col-12 col-sm-6 col-md-6 col-lg-6 bg-image no-mobile"
+      ></div>
     </div>
 
     <div class="container">
@@ -16,7 +21,7 @@
           <h3>{{.title}}</h3>
           <p>{{.content}}</p>
           <a href="{{.cta_link}}">
-              <div class="btn btn-primary">{{ .cta_label }}</div>
+            <div class="btn btn-primary">{{ .cta_label }}</div>
           </a>
         </div>
       </div>
@@ -28,11 +33,7 @@
         </div>
       </div>
       {{ end }}
-
     </div>
-
   </div>
-
-
 </section>
 {{"<!-- /Img - Text -->" | safeHTML }}

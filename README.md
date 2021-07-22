@@ -1,4 +1,4 @@
-# Ummadum
+# Ummadum - Alto Adige
 
 Repository for the [Carpooling](#) website created with [Hugo](https://gohugo.io/).
 
