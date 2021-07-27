@@ -60,6 +60,10 @@ For the project a Docker environment is already prepared and ready to use with a
 
 These Docker containers are the same as used by the continuous integration servers.
 
+### Customization
+
+Simply edit, for the language you want to customize, the config file in src/data/ using the yml language format.
+
 ### Installation
 
 Install [Docker](https://docs.docker.com/install/) (with Docker Compose) locally on your machine.
